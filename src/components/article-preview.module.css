@@ -1,14 +1,33 @@
-.previewTitle {
-  font-size: 1.5em;
+
+.card-article {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
 }
 
-.tag {
-  color: #A0A0A0;
-  text-decoration: none;
-  display: inline-block;
-  padding: .33333rem .5rem;
-  line-height: 1;
-  border-radius: 2px;
-  border: 1px solid #A0A0A0;
-  margin-right: .5em;
+.card-article img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-article h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-article p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-article .card-article-desc {
+  padding: 16px;
 }
