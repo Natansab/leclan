@@ -1,5 +1,5 @@
 
-.card-article {
+.card_article {
   overflow: hidden;
   height: 120px;
   background: white;
@@ -8,19 +8,19 @@
   align-items: center;
 }
 
-.card-article img {
+.card_article img {
   height: 100%;
   width: 120px;
   object-fit: cover;
 }
 
-.card-article h2 {
+.card_article h2 {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
 
-.card-article p {
+.card_article p {
   font-size: 12px;
   line-height: 1.4;
   opacity: .7;
@@ -28,6 +28,6 @@
   margin-top: 8px;
 }
 
-.card-article .card-article-desc {
+.card_article .card_article_desc {
   padding: 16px;
 }
